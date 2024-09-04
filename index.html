@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="style.css" href="spreadsheet"/>
+    </head>
+
+    <body>
+        <p id="p1"></p>
+        <p id="p2"></p>
+        <p id="p3"></p>
+        <p id="p4"></p>
+        <p id="p5"></p>
+        <p id="p6"></p>
+        <script>
+            var student={ name:'Tinu',Age:'13',grade:'9',color:'yellow,black,white'}
+
+            var color=["crimson","black","white","blue"]
+            document.getElementById("p3").innerHTML= "The student grade is " + student.name 
+            document.getElementById("p4").innerHTML= "The student grade is " + student.Age
+            document.getElementById("p5").innerHTML= "The student grade is " + student.grade 
+            document.getElementById("p6").innerHTML= "The student favorite colours are " + student.color 
+            document.getElementById("p2").innerHTML=color.join("$") 
+        </script>
+    </body>
+</html>
